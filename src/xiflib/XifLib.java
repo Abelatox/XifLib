@@ -23,13 +23,13 @@ public class XifLib implements IXifrar{
 			BufferedReader br = new BufferedReader(fr);
 			FileWriter fw = new FileWriter(out);
 
-			String str = "";
+			StringBuffer strBuffer = new StringBuffer( "" );
 			while(fr.ready()) {
-				str += xifra(fr.read());
+				strBuffer.append(fr.read());
 			}
 			
-			System.out.print(str);
-			fw.write(str);
+			System.out.print(strBuffer);
+			fw.write(strBuffer.toString());
 			fw.flush();
 			
 			fw.close();
