@@ -7,4 +7,5 @@ import java.io.File;
  */
 public interface IXifrar {
 	public void xifrar(File in, File out);
+	public String xifrar(String in);
 }
