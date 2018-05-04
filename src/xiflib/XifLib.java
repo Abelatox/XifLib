@@ -8,9 +8,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 /**
- * Classe principal de la llibreria per xifrar la qual implement una interfície
+ * Classe principal de la llibreria per xifrar la qual implementa una interfície
  * 
- * @author Abel
+ * @author Abel i Marc
  */
 public class XifLib implements IXifrar {
 
