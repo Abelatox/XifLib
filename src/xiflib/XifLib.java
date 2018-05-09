@@ -71,7 +71,7 @@ public class XifLib implements IXifrar {
 	@Override
 	public String xifrar(String in) {
 		StringBuffer str = new StringBuffer();
-		for(int i=0;i<in.length();i++) {
+		for (int i = 0; i < in.length(); i++) {
 			str.append(xifra(in.charAt(i)));
 		}
 		return str.toString();

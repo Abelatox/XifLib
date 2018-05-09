@@ -14,9 +14,9 @@ public interface IXifrar {
 	public void xifrar(File in, File out);
 	
 	/**
-	 * Xifra/Desxifra i retorna una String
-	 * @param in String a xifrar/desxifrar
-	 * @return String Xifrada/Desxifrada
+	 * Xifra / Desxifra i retorna una String
+	 * @param in String a xifrar / desxifrar
+	 * @return String Xifrada / Desxifrada
 	 */
 	public String xifrar(String in);
 }
